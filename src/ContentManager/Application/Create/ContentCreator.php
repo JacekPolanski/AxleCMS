@@ -1,6 +1,6 @@
 <?php
 
-namespace App\ContentManager\Application;
+namespace App\ContentManager\Application\Create;
 
 use App\ContentManager\Domain\Content;
 use App\ContentManager\Domain\ContentId;

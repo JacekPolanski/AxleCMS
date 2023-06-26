@@ -12,7 +12,7 @@ class Id
 
     public function random(): self
     {
-        return new static(Uuid::uuid4());
+        return new static(Uuid::uuid4()->toString());
     }
 
     public function __toString(): string

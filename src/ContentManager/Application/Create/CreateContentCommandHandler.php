@@ -1,10 +1,10 @@
 <?php
 
-namespace App\ContentManager\Application;
+namespace App\ContentManager\Application\Create;
 
 use App\ContentManager\Domain\ContentId;
 
-class CreateContentHandler
+class CreateContentCommandHandler
 {
     public function __construct(private readonly ContentCreator $contentCreator)
     {

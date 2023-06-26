@@ -4,7 +4,7 @@ namespace App\ContentManager\Domain;
 
 final class Content
 {
-    public function __construct(private readonly ContentId $id)
+    public function __construct(public readonly ContentId $id)
     {
     }
 
