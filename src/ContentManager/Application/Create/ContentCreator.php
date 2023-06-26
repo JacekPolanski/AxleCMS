@@ -6,9 +6,9 @@ use App\ContentManager\Domain\Content;
 use App\ContentManager\Domain\ContentId;
 use App\ContentManager\Domain\ContentRepository;
 
-class ContentCreator
+readonly class ContentCreator
 {
-    public function __construct(private readonly ContentRepository $contents)
+    public function __construct(private ContentRepository $contents)
     {
     }
 

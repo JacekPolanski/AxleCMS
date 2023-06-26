@@ -2,9 +2,9 @@
 
 namespace App\ContentManager\Domain;
 
-final class Content
+final readonly class Content
 {
-    public function __construct(public readonly ContentId $id)
+    public function __construct(public ContentId $id)
     {
     }
 
