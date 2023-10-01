@@ -1,0 +1,56 @@
+<mxGraphModel dx="1667.89" dy="329.79" grid="1" gridSize="16" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff">
+  <root>
+    <mxCell id="e975feae-1579-4c09-98d0-98cbf2108aec"/>
+    <mxCell id="7fe80d19-d317-4e9d-8296-96c598786d78" parent="e975feae-1579-4c09-98d0-98cbf2108aec"/>
+    <event label="Content created" type="event" id="fp33ZomZj1yghjqa487MZJ">
+      <mxCell style="event" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-768" y="256" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <event label="Content published" type="event" id="7ARn4vTd74jeiTC6J5Z348">
+      <mxCell style="event" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-416" y="256" width="160" height="106" as="geometry"/>
+      </mxCell>
+    </event>
+    <event label="Content updated" type="event" id="foB4bqjy3LSfTJWRngVSr9">
+      <mxCell style="event" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-592" y="256" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <event label="User role updated" type="event" id="uV3njg5zeSTbSG9cWQHDHk">
+      <mxCell style="event" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-768" y="-7" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <role label="Publisher" type="role" id="9tazktPpU3ZJNdJK36LrgH">
+      <mxCell style="role" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-912" y="256" width="87" height="90" as="geometry"/>
+      </mxCell>
+    </role>
+    <role label="Admin" type="role" id="4kDbVgigGbgfHybvo8STiN">
+      <mxCell style="role" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-895" y="-35" width="70" height="90" as="geometry"/>
+      </mxCell>
+    </role>
+    <event label="Publisher created" type="event" id="31VeY5tTYGwvr37wbTkBAc">
+      <mxCell style="event" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-592" y="43" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <event label="Publisher activated" type="event" id="q7JxvLjYc4sRNsQAiEaNyS">
+      <mxCell style="event" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-416" y="43" width="160" height="106" as="geometry"/>
+      </mxCell>
+    </event>
+    <event label="Publisher deactivated" type="event" id="3eo16ewTqDTioTem3R17a2">
+      <mxCell style="event" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-512" y="-96" width="160" height="106" as="geometry"/>
+      </mxCell>
+    </event>
+    <document label="Publisher raport" type="document" id="8h8ysTrRJLmWp4BFWyCoX7">
+      <mxCell style="document" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-208" y="-7" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </document>
+  </root>
+</mxGraphModel>

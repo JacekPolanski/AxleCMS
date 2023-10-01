@@ -4,9 +4,9 @@ namespace App\ContentManager\Application\Create;
 
 use App\ContentManager\Domain\ContentId;
 
-class CreateContentCommandHandler
+readonly class CreateContentCommandHandler
 {
-    public function __construct(private readonly ContentCreator $contentCreator)
+    public function __construct(private ContentCreator $contentCreator)
     {
     }
 

@@ -6,6 +6,7 @@ use App\ContentManager\Application\Create\ContentCreator;
 use App\ContentManager\Application\Create\CreateContentCommandHandler;
 use App\Tests\ContentManager\Unit\Domain\ContentMother;
 use App\Tests\ContentManager\Unit\Infrastructure\ContentRepositorySpy;
+use App\Tests\Shared\Application\Create\CreateContentCommandMother;
 use App\Tests\Shared\Infrastucture\PhpUnit\UnitTestCase;
 
 class CreateContentCommandHandlerTest extends UnitTestCase
